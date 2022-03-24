@@ -30,4 +30,9 @@
     console.log('WOW! this Pokemon is big')
     document.write(pokemonList[i].name + '(height : ' + pokemonList[i].height  +')' + 'WOW! this Pokemon is big! </br>')
     }
+
+for (let j = 1; j < pokemonList[i]['name'].length; j++) {
+    document.write(pokemonList[i].name[j]);
+}
+    
 }
