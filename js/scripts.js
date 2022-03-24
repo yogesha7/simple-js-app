@@ -27,12 +27,8 @@
 
  for (let i = 0; i < pokemonList.length; i++) {
     if (pokemonList[i].height > 5) {
-    console.log('WOW! this Pokemon is big')
-    document.write(pokemonList[i].name + '(height : ' + pokemonList[i].height  +')' + 'WOW! this Pokemon is big! </br>')
+    document.write("Name: " + pokemonList[i].name + ", Type: " + pokemonList[i].type[0] + ',  Height: ' + pokemonList[i].height  + '(WOW! this Pokemon is big!) </br>')
     }
 
-for (let j = 1; j < pokemonList[i]['name'].length; j++) {
-    document.write(pokemonList[i].name[j]);
-}
     
 }
